@@ -35,6 +35,14 @@ $(document).ready(function() {
 		var targetOffset = $('div.blockquote').offset().top-80;
 		$('html,body').animate({scrollTop: targetOffset}, 1000);
 	});
+    
+    //OLGA SCROLL TEST
+    $(".button").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".projects").offset().top},
+            'slow');
+    });
+    
 
 	// Menu Scroll Hide
 	var nav = $('.menubar');

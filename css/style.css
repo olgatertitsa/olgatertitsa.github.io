@@ -965,7 +965,7 @@ article.post p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 40%;
+    height: auto;
 }
 
 .aboutme h3{
@@ -1011,13 +1011,13 @@ article.post p {
     font-family: "Open Sans", Verdana, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: .25em;
     color: #FFF;
     border: 3px solid #FFF;
     padding: 6px;
-    width: 160px;
+    width: 200px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -1084,11 +1084,11 @@ textarea {
 ******************************************************************/
 .footer {
 	width: 100%;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	background-color: #b5b5b5;
+	background-color: #1f1f1f;
 }
 .footer h6 {
 	line-height: 50px;
