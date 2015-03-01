@@ -279,11 +279,12 @@ div.icon {
 	height: 100%;
 }
 .home.hero {
-	background-image: url(../img/home_bg_2.jpg);
+	/*background-image: url(../img/home_bg_2.jpg);
 	background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background-color: #96b728;
     
 }
 .overlay {
@@ -451,7 +452,7 @@ ul.mainmenu li.active a {
 	Footer
 ******************************************************************/
 footer.main {
-	height: 195px;
+	height: auto;
 	width: 100%;
 	margin-top: 60px;
 	text-align: center;
@@ -959,11 +960,12 @@ article.post p {
 *******************************************************************/
 
 .aboutme {
-	background-image: url(../img/bg_3.jpg);
+	/*background-image: url(../img/bg_3.jpg);
 	background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background-color: #909082;
     width: 100%;
     height: auto;
 }
@@ -1002,8 +1004,28 @@ article.post p {
     text-align: center;
     max-width: 70%;
     min-width:350px;
-    height: 320px;
-    font-size: 1.1em;
+    height: 250px;
+    font-size: 1.15em;
+    letter-spacing: .05em;
+}
+
+.icons a {
+    text-transform: uppercase;
+    letter-spacing: 1.3em;
+    color: #FFF;
+    -webkit-transition: .2s ease-in-out opacity;
+    -moz-transition: .2s ease-in-out opacity;
+    -o-transition: .2s ease-in-out opacity;
+    transition: .2s ease-in-out opacity;
+}
+
+.icons a:hover {
+    opacity: 0.5;
+}
+
+.icons svg{
+    fill: #FFF;
+    margin-top: 25px;
 }
 
 .resume-button {
@@ -1085,13 +1107,13 @@ textarea {
 .footer {
 	width: 100%;
 	/*margin-top: 50px;*/
-	height: 50px;
+	height: auto;
 	text-align: center;
-	line-height: 50px;
+	line-height: 20px;
 	background-color: #1f1f1f;
 }
 .footer h6 {
-	line-height: 50px;
+	line-height: 30px;
 	color: #FFF;
 }
 
