@@ -124,4 +124,45 @@
 #slider, #slider2, #slider3, #slider4, #slider5 {
     margin-top: 50px;
     margin-bottom: 40px;
+    height: 500px;
+}
+
+@media (max-width: 700px) {
+ 
+#slider, #slider2, #slider3, #slider4, #slider5 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height: 430px;
+}    
+    
+}
+
+@media (max-width: 600px) {
+ 
+#slider, #slider2, #slider3, #slider4, #slider5 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height: 350px;
+}    
+    
+}
+
+@media (max-width: 480px) {
+ 
+#slider, #slider2, #slider3, #slider4, #slider5 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height: 280px;
+}    
+    
+}
+
+@media (max-width: 380px) {
+ 
+#slider, #slider2, #slider3, #slider4, #slider5 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height: 230px;
+}    
+    
 }
