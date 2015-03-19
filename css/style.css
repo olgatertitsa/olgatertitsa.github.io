@@ -927,6 +927,10 @@ article.post p {
     text-align: center;
 }
 
+article.full p {
+    text-align: justify;
+}
+
 /******************************************************************
 	CSS3 Slider
 ******************************************************************/
@@ -969,18 +973,17 @@ article.post p {
     height: auto;
 }
 
-.aboutme h3{
+.aboutme p{
     color: #FFF;
-    text-align: center;
-    font-size: .8em;
+    text-align: justify;
     line-height: 1.7em;
+    padding: 20px;
 }
 
 .bio {
 	text-align: center;
 	color: #fff;
-    padding: 0 10px 0 10px;
-    font-style: italic;
+    padding: 20 10px 0 20px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -1000,9 +1003,9 @@ article.post p {
 	-ms-flex-direction:column;
 	flex-direction:column;
     text-align: center;
-    max-width: 70%;
-    min-width:350px;
-    height: 250px;
+    max-width: 740px;
+/*    min-width:350px;*/
+/*    height: 250px;*/
     font-size: 1.15em;
     letter-spacing: .05em;
 }
