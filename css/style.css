@@ -814,9 +814,9 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
 	Blog
 ******************************************************************/
 article.post {
-	width: 70%;
-	padding-bottom: 40px;
-	border-bottom: 1px solid #e7e7e7;
+	max-width: 830px;
+/*	padding-bottom: 40px;*/
+    padding:0 20px 40px 20px;
     margin: auto;
 }
 article.post.full {
