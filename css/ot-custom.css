@@ -1,0 +1,151 @@
+.section {
+  display: block;
+}
+
+.div-block {
+  max-width: 600px;
+  margin-left: 0px;
+}
+
+.body {
+  font-family: 'sofia-pro', sans-serif;
+  color: #29261f;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+h1 {
+  margin-bottom: 6px;
+  color: #29261f;
+  font-size: 24px;
+  line-height: 125%;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 0px;
+  color: rgba(41, 38, 31, .6);
+  font-size: 20px;
+  line-height: 125%;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 16px;
+}
+
+.p-main {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 180%;
+}
+
+.container {
+  margin-top: 100px;
+  padding-right: 0px;
+}
+
+.icon-section {
+  margin-top: 24px;
+}
+
+a {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.6
+}
+
+.link {
+  color: #8f993e;
+}
+
+.bg-photo {
+  min-height: 600px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: url('../images/personal-pic.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.intro-content {
+  padding-right: 0px;
+  padding-left: 60px;
+}
+
+.icons {
+  margin-right: 10px;
+  padding-right: 0px;
+}
+
+@media (max-width: 991px) {
+  .div-block {
+    max-width: 400px;
+  }
+  .container {
+    margin-top: 60px;
+    margin-bottom: 32px;
+    background-image: none;
+  }
+  .div-block-2 {
+    margin-bottom: 24px;
+  }
+  .bg-photo {
+    min-height: 680px;
+    padding-left: 0px;
+  }
+  .intro-content {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .container {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-image: none;
+  }
+  .bg-photo {
+    min-height: 200px;
+    background-position: 50% 34%;
+  }
+  .intro-content {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .columns {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .div-block {
+    margin-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .container {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    padding-top: 0px;
+    background-image: none;
+  }
+  .bg-photo {
+    max-height: 0px;
+    background-position: 50% 35%;
+  }
+  .intro-content {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
